@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../assets/logo.jpeg';
 
 export default function () {
   return (
@@ -9,15 +10,15 @@ export default function () {
           class="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
+            src={logo}
             class="h-8"
-            alt="Flowbite Logo"
+            alt="DermaIntel Logo"
           />
           <div className="flex flex-col ">
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              AI Dermatologist
+              DermaIntel
             </span>
-            <p className="text-gray-400">Skin Cancer</p>
+            <p className="text-gray-400">Skin Cancer Detection</p>
           </div>
         </a>
         <button
